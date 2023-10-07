@@ -18,7 +18,7 @@ const testimonial = [
 
 function Testimonials() {
   return (
-    <div className="h-screen">
+    <div className=" px-[100px] py-10">
       <h1 className="text-5xl w-full text-center">Testimonials</h1>
         <div className="flex gap-5 p-5">
           {testimonial.map((items) => (
