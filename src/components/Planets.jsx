@@ -121,7 +121,7 @@ function Planets() {
               <span className="font-light">Yep!</span>
             </li>
             <li className="pt-5">
-              <button className=" text-lg bg-transparent hover:bg-white text-white font-semibold hover:text-black py-1 px-3 border border-grey hover:border-transparent rounded">
+              <button className=" text-lg bg-transparent hover:bg-[#FFD700] text-white font-semibold hover:text-[white] py-1 px-3 border border-grey hover:border-transparent rounded">
                 Book Now!
               </button>
             </li>

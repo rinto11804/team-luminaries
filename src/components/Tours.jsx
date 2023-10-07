@@ -39,11 +39,11 @@ const planets = [
 
 function TourSite() {
   return (
-    <div className="bg-white ">
+    <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 sm:py-5 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {planets.map((planet) => (
-            <div key={planet.id} className="group relative shadow-xl p-4">
+            <div key={planet.id} className="group relative shadow-xl p-10 hover-2 ">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
                 <img
                   src={planet.imageSrc}
