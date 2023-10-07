@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css';
-import Home from './components/Home';
+import React from "react";
+import "./App.css";
+import Home from "./components/Home";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <Home/>
-  )
+    <>
+      <Home />
+      <Testimonials />
+    </>
+  );
 }
 
-export default App
+export default App;
