@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-
+ 
 function Home() {
   return (
     <div className=" bg-[url('https://wallpapers.com/images/hd/planet-in-a-colorful-outer-space-1e4f2o2mmscz9h1b.webp')]">
@@ -26,10 +26,10 @@ function Home() {
         </h3>
         <nav>
           <ul className="flex font-Nlight gap-5 text-[20px] cursor-pointer">
-            <li className="navitem">Tours</li>
-            <li className="navitem">Services</li>
-            <li className="navitem">Testimonials</li>
-            <li className="navitem">Contact</li>
+            <li className="navitem"><a href="pricing.jsx">Tours</a></li>
+            <li className="navitem"><a href="">Services</a></li>
+            <li className="navitem"><a href="">Testimonials</a></li>
+            <li className="navitem"><a href="">Contact</a></li>
           </ul>
         </nav>
       </div>

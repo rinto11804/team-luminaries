@@ -2,24 +2,23 @@ import React from "react";
 import "./App.css";
 import Home from "./components/Home";
 import Testimonials from "./components/Testimonials";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Tours from "./components/Tours";
 import Planets from "./components/Planets";
 import Pricing from "./components/Pricing";
 
-
 function App() {
   return (
     <>
       <Home />
       <Tours />
-      <Services/>
+      <Services />
       <Testimonials />
       <Planets/>
       <Pricing/>
-      <Contact/>
+      <Contact />
     </>
   );
 }
