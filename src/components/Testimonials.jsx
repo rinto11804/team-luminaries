@@ -31,7 +31,7 @@ const testimonial = [
 
 function Testimonials() {
   return (
-    <div className=" px-[100px] py-10">
+    <div className=" px-[100px] py-10" id="3">
       <h1 className="text-5xl font-Pbold w-full text-center">Testimonials</h1>
 
       <div className="flex gap-5 p-5 w-full items-center justify-center">

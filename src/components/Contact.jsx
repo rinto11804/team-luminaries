@@ -10,24 +10,22 @@ import image8 from "../assets/images/location-arrow-solid.svg";
 const Contacts = [
   {
     img: image6,
-    detail_1: "+(91) 8086222806 [Phone No]",
-    detail_2: "+(91) 8086222806 [Phone No]",
+    detail_1: "North America Toll-Free : 1-877-930-7483",
   },
   {
     img: image7,
-    detail_1: "+(91) 8086222806 [Phone No]",
-    detail_2: "+(91) 8086222806 [Phone No]",
+    detail_1: "Just send us your questions or concerns by starting a new case and we will give you the help you need",
   },
   {
     img: image8,
-    detail_1: "+(91) 8086222806 [Phone No]",
-    detail_2: "+(91) 8086222806 [Phone No]",
+    detail_1: "Chat with a member of our in-house team",
+
   },
 ];
 function Contact() {
   return (
     <>
-      <footer className="border-t-4 border-t-gray-400  py-3 h-screen flex items-center justify-center ">
+      <footer className="border-t-2 border-t-gray-400  py-3 h-screen flex items-center justify-center " id="4">
         <div className="py-5">
             <div className="top">
               <h1 className="text-center text-6xl font-Pbold ">
@@ -50,8 +48,7 @@ function Contact() {
                                 alt=""
                               />
                             </a>
-                            <div>{contact.detail_1}</div>
-                            <div>{contact.detail_1}</div>
+                            <div className="w-[200px] text-center leading-6">{contact.detail_1}</div>
                           </div>
                         </div>
                       </div>

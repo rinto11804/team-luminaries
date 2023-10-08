@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
 @font-face {
   font-family: "Nitalics";
   src: url("../src/assets/font/Noto_Sans/NotoSans-ExtraLightItalic.woff2") format('woff2');  
