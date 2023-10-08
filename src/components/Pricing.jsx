@@ -36,7 +36,7 @@ function Pricing() {
   ];
   return (
     <div>
-      <div className="bg-white dark:bg-gray-800 h-screen">
+      <div className="bg-white dark:bg-gray-800 h-screen py-5">
         <div className="text-[5rem] px-[100px] w-full text-center text-white font-Pbold">
           Packages
         </div>
