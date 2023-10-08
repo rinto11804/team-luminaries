@@ -98,7 +98,7 @@ const activities = [
 ];
 function Planets() {
   return (
-    <div>
+    <div id="5">
       <div className="flex gap-2 bg-black  text-white h-screen">
         <div className="w-1/2 flex justify-center flex-col gap-5 px-[100px]">
           <span className="text-[70px] font-Nmedium w-[500px] f">Mars</span>

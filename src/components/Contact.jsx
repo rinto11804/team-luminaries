@@ -25,7 +25,7 @@ const Contacts = [
 function Contact() {
   return (
     <>
-      <footer className="border-t-2 border-t-gray-400  py-3 h-screen flex items-center justify-center ">
+      <footer className="border-t-2 border-t-gray-400  py-3 h-screen flex items-center justify-center " id="4">
         <div className="py-5">
             <div className="top">
               <h1 className="text-center text-6xl font-Pbold ">

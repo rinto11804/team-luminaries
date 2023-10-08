@@ -26,10 +26,10 @@ function Home() {
         </h3>
         <nav>
           <ul className="flex font-Nlight gap-5 text-[20px] cursor-pointer">
-            <li className="navitem"><a href="pricing.jsx">Tours</a></li>
-            <li className="navitem"><a href="">Services</a></li>
-            <li className="navitem"><a href="">Testimonials</a></li>
-            <li className="navitem"><a href="">Contact</a></li>
+            <li className="navitem"><a href="#1">Tours</a></li>
+            <li className="navitem"><a href="#2">Services</a></li>
+            <li className="navitem"><a href="#3">Testimonials</a></li>
+            <li className="navitem"><a href="#4">Contact</a></li>
           </ul>
         </nav>
       </div>
