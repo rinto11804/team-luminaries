@@ -1,17 +1,17 @@
 import React from "react";
-import Mars_race from "../assets/Mars Rover Races.jpg";
-import Low_gratity from "../assets/Low-Gravity Athletics.jpg";
-import place from "../assets/jupiter.jpeg";
-import Olympus from "../assets/Olympus.png";
-import Gale from "../assets/Gale Crater.jpeg";
-import Polar from "../assets/Polar.jpg";
-import Valles from "../assets/Valles Marineris.jpg";
-import Martian from "../assets/Martian Tacos.jpg";
-import Algae from "../assets/AlgaeBased.jpg";
-import Space from "../assets/SpaceFarmed.jpg";
-import Vallesian from "../assets/Vallesian Rock Dwellers.jpg";
-import Canyon from "../assets/Canyon Nomads of Marineris.jpg";
-import Aerial from "../assets/Aerial.jpg";
+import Mars_race from "../assets/images/Mars Rover Races.webp";
+import Low_gratity from "../assets/images/Low-Gravity Athletics.webp";
+import place from "../assets/images/mars.webp";
+import Olympus from "../assets/images/Olympus.webp";
+import Gale from "../assets/images/Gale Crater.webp";
+import Polar from "../assets/images/Polar.webp";
+import Valles from "../assets/images/Valles Marineris.webp";
+import Martian from "../assets/images/Martian Tacos.webp";
+import Algae from "../assets/images/AlgaeBased.webp";
+import Space from "../assets/images/SpaceFarmed.webp";
+import Vallesian from "../assets/images/Vallesian Rock Dwellers.webp";
+import Canyon from "../assets/images/Canyon Nomads of Marineris.webp";
+import Aerial from "../assets/images/Aerial.webp";
 const array1 = [
   {
     img: Olympus,
@@ -31,7 +31,7 @@ const array1 = [
     img: Polar,
     title: "Polar Ice Caps",
     description:
-      "Take a trip through Mars’ polar ice cap and take in the frozen beauty of the Red Planet. Join our campaign and explore these cool spots. Reserve your seat for an unforgettable polar experience today!",
+      "Take a trip through Mars' polar ice cap and take in the frozen beauty of the Red Planet. Join our campaign and explore these cool spots. Reserve your seat for an unforgettable polar experience today!",
     hash: ["place", "life", "joy"],
   },
 ];
@@ -101,7 +101,7 @@ function Planets() {
     <div>
       <div className="flex gap-2 bg-black  text-white h-screen">
         <div className="w-1/2 flex justify-center flex-col gap-5 px-[100px]">
-          <span className="text-[70px] font-medium w-[500px] f">Mars</span>
+          <span className="text-[70px] font-Nmedium w-[500px] f">Mars</span>
           <p className="w-[500px]">
             Mars is the fourth planet from the Sun, known for its red color.
             It's rocky, has a thin atmosphere, and is a key target for potential
@@ -109,19 +109,19 @@ function Planets() {
           </p>
           <ul className="text-[25px] flex flex-col gap-2">
             <li>
-              <span className="font-light">Temperature : </span>
-              <span className="font-light">80°F</span>
+              <span className="font-Nregular">Temperature : </span>
+              <span className="font-Nregular">80°F</span>
             </li>
             <li>
-              <span className="font-light">Highest Wind Speed : </span>
-              <span className="font-light">60MPH</span>
+              <span className="font-Nregular">Highest Wind Speed : </span>
+              <span className="font-Nregular">60MPH</span>
             </li>
             <li>
-              <span className="font-light">Water : </span>
-              <span className="font-light">Yep!</span>
+              <span className="font-Nregular">Water : </span>
+              <span className="font-Nregular">Yep!</span>
             </li>
             <li className="pt-5">
-              <button className=" text-lg bg-transparent hover:bg-[#FFD700] text-white font-semibold hover:text-[white] py-1 px-3 border border-grey hover:border-transparent rounded">
+              <button className=" text-lg bg-transparent hover:bg-[#FFD700] text-white font-PSemi hover:text-[white] py-1 px-3 border border-grey hover:border-transparent rounded">
                 Book Now!
               </button>
             </li>
@@ -131,13 +131,13 @@ function Planets() {
           <img alt="place image " src={place} />
         </div>
       </div>
-      <h3 className="text-[50px] font-medium px-[100px] py-5">Explore Mars' Grand Canyon</h3>
+      <h3 className="text-[50px] font-Nmedium px-[100px] py-5">Explore Mars' Grand Canyon</h3>
       <div className="flex gap-5 px-[100px]">
         <div className="px-5">
           <div className="w-[500px]">
             <img alt="place image" src={Valles} />
           </div>
-          <span className="text-[35px] font-medium">Valles Marineris</span>
+          <span className="text-[35px] font-Nmedium">Valles Marineris</span>
           <p className="w-[500px]">
             Valles Marineris on Mars, often called the "Grand Canyon of Mars,"
             is an awe-inspiring geological marvel, spanning over 4,000
@@ -151,7 +151,7 @@ function Planets() {
           </p>
         </div>
         <div>
-          <span className="text-[35px] font-medium">Extreme Mars Sports</span>
+          <span className="text-[35px] font-Nmedium">Extreme Mars Sports</span>
           <div className="flex gap-2 items-center justify-center">
             {activities.map((act, i) => (
               <div
@@ -167,12 +167,12 @@ function Planets() {
                       {act.title}
                     </h5>
                   </a>
-                  <p className="mb-3 w-full font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 w-full font-Nlight text-gray-700 dark:text-gray-400">
                     {act.description}
                   </p>
                   <a
                     href="#"
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="inline-flex items-center px-3 py-2 text-sm font-Nmedium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Read more
                     <svg
@@ -207,8 +207,8 @@ function Planets() {
 function Must({ title, array }) {
   return (
     <div className="px-[100px] py-5 ">
-      <div className="text-[35px] font-medium p-2">{title}</div>
-      <div className="flex gap-4 items-center justify-center">
+      <div className="text-[35px] font-Nmedium p-2">{title}</div>
+      <div className="flex gap-4 items-baseline justify-center">
         {array.map((items, index) => (
           <div
             key={index}
@@ -235,7 +235,7 @@ function Must({ title, array }) {
             </div>
             <a
               href="#"
-              className="flex items-center px-3 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-bl-lg rounded-br-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="flex items-center px-3 py-3 text-sm font-Nmedium text-center text-white bg-blue-700 rounded-bl-lg rounded-br-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg

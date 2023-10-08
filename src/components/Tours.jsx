@@ -3,7 +3,7 @@ import React from "react";
 function Tours() {
   return (
     <div className=" px-[100px]">
-      <div className="w-full text-center text-[50px] font-medium">Tours</div>
+      <div className="w-full text-center text-[50px] font-Pbold">Tours</div>
       <div className="flex items-center justify-center w-full">
         <TourSite />
       </div>
@@ -55,10 +55,10 @@ function TourSite() {
                 <div className="text-center w-full">
                   <h3 className="text-lg font-semibold text-gray-700 ">
                     <a href={planet.href} className="flex flex-col gap-3">
-                      <span className="font-bold text-[30px] text-black">
+                      <span className="font-Psemi text-[30px] text-black">
                       {planet.name}
                       </span>
-                      <p className="font-normal">{planet.description}</p>
+                      <p className="font-Nlight text-[15px]">{planet.description}</p>
                     </a>
                   </h3>
                 </div>
