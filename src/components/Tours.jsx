@@ -3,7 +3,7 @@ import React from "react";
 function Tours() {
   return (
     <div className=" px-[100px]">
-      <div className="w-full text-center text-[50px] font-medium">Tours</div>
+      <div className="w-full text-center text-[50px] font-Pbold">Tours</div>
       <div className="flex items-center justify-center w-full">
         <TourSite />
       </div>
@@ -39,11 +39,11 @@ const planets = [
 
 function TourSite() {
   return (
-    <div className="bg-white ">
+    <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 sm:py-5 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {planets.map((planet) => (
-            <div key={planet.id} className="group relative shadow-xl p-4">
+            <div key={planet.id} className="group relative shadow-xl p-10 hover-2 ">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
                 <img
                   src={planet.imageSrc}
@@ -55,10 +55,10 @@ function TourSite() {
                 <div className="text-center w-full">
                   <h3 className="text-lg font-semibold text-gray-700 ">
                     <a href={planet.href} className="flex flex-col gap-3">
-                      <span className="font-bold text-[30px] text-black">
+                      <span className="font-Psemi text-[30px] text-black">
                       {planet.name}
                       </span>
-                      <p className="font-normal">{planet.description}</p>
+                      <p className="font-Nlight text-[15px]">{planet.description}</p>
                     </a>
                   </h3>
                 </div>
